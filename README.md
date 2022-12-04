@@ -1,5 +1,4 @@
-# advent-of-code-2022
-Advent of code 2022
+# Advent of Code 2022
 <!--- advent_readme_stars table --->
 ## 2022 Results
 
