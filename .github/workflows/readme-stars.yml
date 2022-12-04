@@ -1,9 +1,9 @@
 name: Update README ⭐
 on:
-    push:
-    schedule:
-      - cron: "0 0 * * *"  # Everyday at midnight
-    workflow_dispatch:
+  push:
+    paths:
+      - '0*/solution.py' # Only update when a day's code is pushed
+  workflow_dispatch:
 
 jobs:
   update-readme:
