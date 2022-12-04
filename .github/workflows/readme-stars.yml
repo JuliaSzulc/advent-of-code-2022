@@ -13,6 +13,7 @@ jobs:
       - uses: k2bd/advent-readme-stars@v1
         with:
           userId: 906886
+          leaderboardId: 906886
           sessionCookie: ${{ secrets.AOC_SESSION }}
           year: 2022
       - uses: stefanzweifel/git-auto-commit-action@v4
