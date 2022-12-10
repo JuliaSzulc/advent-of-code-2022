@@ -2,7 +2,7 @@ name: Update README ⭐
 on:
   push:
     paths:
-      - '0*/solution.py' # Only update when a day's code is pushed
+      - '*/solution.py' # Only update when a day's code is pushed
   workflow_dispatch:
 
 jobs:
